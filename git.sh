@@ -8,10 +8,9 @@ if [ $# -gt 0 ]; then
 fi
 
 #git checkout master
-
-git diff --numstat origin/master
+# git diff --numstat origin/master
 
 git add --all
 git commit -am "${MSG}"
-
-git push origin master
+git push
+# git push origin master
