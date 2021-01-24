@@ -1,0 +1,24 @@
+- git download
+  - git clone https://github.com/ipcoo43/<저장소명>.git
+- git upload
+  - cd <work-dir>
+  - git init
+  - .gitignore 파일 작성 (올리고 싶지 않은 파일)
+    - .vscode
+  - git add --all
+  - git commit -am 'message one'
+  - git remote add origin <git-remote-url>
+  - git push -u origin master
+  - git log
+  - git status
+- git 수정 upload
+  - git add --all
+  - git commit -am 'message two'
+  - git push -uf origin master
+
+- git 에서 다운로드 해서 사용 방법
+  - git clone https://github.com/ipcoo43/study_one.git
+  - git pull
+  - git add --all
+  - git commit -am 'message two'
+  - git push
