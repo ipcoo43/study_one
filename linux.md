@@ -1,0 +1,8 @@
+- [ Linux ]
+- du -sh workspace
+- history | tail -5
+- vi .vimrc
+  - set smartindent
+  - set tabstop=4
+  - set expandtab
+  - set shiftwidth=4
