@@ -16,5 +16,5 @@ while (i >= 0):
         continue
     sum += i
     if (i == 30):
-        print('end!!', sum)
+        print('sum = ', sum)
         break
