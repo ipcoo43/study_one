@@ -31,3 +31,5 @@
   - git log --graph --oneline : 그래프 형태로 보여 줌
   - git reset --[hard | soft | mixed]  
   - git revert : 취소
+
+- password : config --global credential.helper store
